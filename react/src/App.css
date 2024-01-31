@@ -1,0 +1,30 @@
+/* App.css */
+.app-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('future-abstract-development-block.jpg');  /* Replace with your image URL */
+  background-size: cover;
+  filter: brightness(0.7);  /* Adjust brightness as needed */
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;  /* Set text color */
+}
+
+/* Add any additional styles and animations here */
